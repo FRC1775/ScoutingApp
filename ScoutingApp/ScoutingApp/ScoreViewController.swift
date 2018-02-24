@@ -12,6 +12,9 @@ class ScoreViewController: UIViewController {
 
     @IBOutlet weak var finalScoreTextBox: UITextField!
     @IBOutlet weak var opponentScoreTextBox: UITextField!
+
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
