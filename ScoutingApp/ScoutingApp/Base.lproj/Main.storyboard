@@ -51,6 +51,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
+                                    <action selector="loginClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="amk-ZN-heU"/>
                                     <segue destination="rsq-PD-zbS" kind="show" id="MPl-ev-1y5"/>
                                 </connections>
                             </button>
@@ -58,6 +59,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="emailText" destination="tKj-9R-Dm6" id="dPH-bS-FuS"/>
+                        <outlet property="passwordText" destination="K5L-l2-SjG" id="s5d-LL-oFF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

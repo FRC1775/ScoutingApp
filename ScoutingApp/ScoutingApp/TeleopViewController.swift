@@ -15,7 +15,6 @@ class TeleopViewController: UIViewController {
     @IBOutlet weak var cubesInExchange: UITextField!
     @IBOutlet weak var defenseSwitch: UISwitch!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround() 
